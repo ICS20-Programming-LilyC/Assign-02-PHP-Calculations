@@ -24,21 +24,20 @@
 
     <!--PHP code-->
     <?php echo "<h1>Discount Calculator in PHP</h1>" ?>
-    <form action="./welcome.php" method="post" target="result">
+    <?php echo "<h3>Please enter the following requirements below:</h3>" ?>
+    <form action="./calculations.php" method="post" target="result">
       <label for="originalPrice">Price of your purchase:</label>
-      <input type="text" id="orginal-price" placeholder="Price" name="street-name">
+      <input type="number" step="0.01" id="orginal-price" placeholder="Price" name="orginal-price">
       <br><br>
       <label for="discountRate">Discount rate:</label>
-      <input type="number" id="discount-rate" placeholder="(Write in decimal form)" name="street-number">
+      <input type="number" step="0.01" id="discount-rate" placeholder="(Write in decimal form)" name="discount-rate">
       <br><br>
       <input type="submit" value="Enter">
       <br><br>
     </form>
     <div id="result"></div>
     <center>
-      <iframe id="result" name="result">
-        Your first name is <?php echo $_POST["first-name"]; ?> and your age is <?php echo $_POST["age"]; ?>.
-      </iframe>
+      <iframe id="result" name="result"></iframe>
     </center>
   </body>
 </html>
