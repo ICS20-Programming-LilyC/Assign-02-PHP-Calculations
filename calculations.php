@@ -1,0 +1,1 @@
+You live on <?php echo $_POST["street-name"]; ?> street and your street number is <?php echo $_POST["street-number"]; ?>.
