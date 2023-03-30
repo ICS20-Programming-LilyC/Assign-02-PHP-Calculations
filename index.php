@@ -18,16 +18,23 @@
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./css/style.css">
 
-    <!-- Title -->
+    <!--Title-->
     <title>Discount Calculator in PHP</title>
   </head>
-
-    <!--PHP code-->
     <?php echo "<h1>Discount Calculator in PHP</h1>" ?>
+
+    <!--Image-->
+      <center>
+        <img src="./images/discount-coupon.png">
+      </center>
+
+    <!--Header-->
     <?php echo "<h3>Please enter the following requirements below:</h3>" ?>
+  
+    <!--PHP code-->
     <form action="./calculations.php" method="post" target="result">
       <label for="originalPrice">Price of your purchase:</label>
-      <input type="number" step="0.01" id="orginal-price" placeholder="Price" name="orginal-price">
+      <input type="number" step="0.01" id="original-price" placeholder="Price" name="original-price">
       <br><br>
       <label for="discountRate">Discount rate:</label>
       <input type="number" step="0.01" id="discount-rate" placeholder="(Write in decimal form)" name="discount-rate">
