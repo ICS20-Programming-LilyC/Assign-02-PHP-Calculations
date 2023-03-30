@@ -10,10 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.pngg">
-    <link rel="manifest" href="./fav_index/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav_index1/apple-touch-ion.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav_index1/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav_index1/favicon-16x16.png">
+    <link rel="manifest" href="./fav_index1/site.webmanifest">
+
     
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./css/style.css">
@@ -45,6 +46,26 @@
     <div id="result"></div>
     <center>
       <iframe id="result" name="result"></iframe>
-    </center>
+      <br>
+      <br>
+      </center>
+
+    <!--Question to go with my extra founctionality-->
+  <h2>Complete the following text field, by indicating your favourite store to shop at!</h2>
+
+    <!--MDL Textfield with Floating Label-->
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="sample3">
+          <label class="mdl-textfield__label" for="sample3">is my favourite store to shop at.</label>
+    
+    <!--MDL checkboxes-->
+  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+  <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+  <span class="mdl-checkbox__label">Checkbox</span>
+</label>
+
+        </div>
+      </form>
   </body>
 </html>

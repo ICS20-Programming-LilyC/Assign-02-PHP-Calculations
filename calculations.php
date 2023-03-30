@@ -4,7 +4,7 @@
   $discountRate = floatval($_POST["discount-rate"]);
 
   //Calculate the discounted price
-  $discountAmount = ($originalPrice * $discountRate);
+  $discountAmount = ($originalPrice - $originalPrice * $discountRate);
   $discountAmountRounded = round($discountAmount, 2);
 
   //Calculate the amount of money you saved
