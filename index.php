@@ -22,7 +22,13 @@
     <!--Title-->
     <title>Discount Calculator in PHP</title>
   </head>
+  <body>
+    <!--Header-->
     <?php echo "<h1>Discount Calculator in PHP</h1>" ?>
+
+    <!--Brief explanation of webpage-->
+    <?php echo "<p> We all love discounts on our purchases. Buying things on sale allows us to save money and it opens up space for the newest arrivials to come in. However, sometimes it can be hard to mentally figure out how much you will end up paying, with the discounts inpalce. Below you can find a dicount calculator that has been coded in php, which will determine your final price for you! So you can be confident in your purchases, just like this man is below.<p>"
+
 
     <!--Image-->
       <center>
@@ -48,7 +54,6 @@
       <iframe id="result" name="result"></iframe>
       <br>
       <br>
-      </center>
 
     <!--Question to go with my extra founctionality-->
   <h2>Complete the following text field, by indicating your favourite store to shop at!</h2>
@@ -58,14 +63,21 @@
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
           <input class="mdl-textfield__input" type="text" id="sample3">
           <label class="mdl-textfield__label" for="sample3">is my favourite store to shop at.</label>
-    
-    <!--MDL checkboxes-->
-  <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
-  <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
-  <span class="mdl-checkbox__label">Checkbox</span>
-</label>
 
+    <!--Question to go with my another extra founctionality-->
+          <h2>Did you find my discount calculator helpful?</h2>
+          
+    <!--MDL checkboxes-->
+          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+            <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input" checked>
+            <span class="mdl-checkbox__label">Yes</span>
+          </label>
+          <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+            <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+            <span class="mdl-checkbox__label">No</span>
+          </label>
         </div>
       </form>
+    </center>
   </body>
 </html>

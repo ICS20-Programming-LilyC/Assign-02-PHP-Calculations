@@ -5,22 +5,22 @@
 */
 
 body {
-  background-color: darkseagreen;
+  background-color: azure;
 }
 
 h1 {
-  background-color: rgb(217 174 148);
-  color: hsl(7deg 44% 45%);
+  background-color: rgb(99 118 141);
+  color: hsl(190deg 100% 86%);
   padding: 40px;
   text-align: center;
 }
 
 h3 {
-  background-color: #a44a3f;
-  color: #d9ae94;
+  background-color: #B8F3FF;
+  color: #63768D;
 }
 
 h2 {
-  background-color: #4d9359;
-  color: #d9ae94;
+  background-color: #B8F3FF;
+  color: #63768D;
 }
