@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html>
   <head>
 
-    <!-- Meta data -->
+    <!--Meta data-->
     <meta charset="utf-8">
     <meta name="description" content="Discounting calculor in PHP">
     <meta name="keywords" content="immaculata, ics2o">
@@ -16,7 +16,7 @@
     <link rel="manifest" href="./fav_index1/site.webmanifest">
 
     
-    <!-- Link to CSS file -->
+    <!--Link to CSS file-->
     <link rel="stylesheet" href="./css/style.css">
 
     <!--Title-->
@@ -27,8 +27,9 @@
     <?php echo "<h1>Discount Calculator in PHP</h1>" ?>
 
     <!--Brief explanation of webpage-->
+    <center>
     <?php echo "<p> We all love discounts on our purchases. Buying things on sale allows us to save money and it opens up space for the newest arrivials to come in. However, sometimes it can be hard to mentally figure out how much you will end up paying, with the discounts inpalce. Below you can find a dicount calculator that has been coded in php, which will determine your final price for you! So you can be confident in your purchases, just like this man is below.<p>" ?>
-
+    </center>
 
     <!--Image-->
       <center>
