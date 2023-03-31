@@ -28,7 +28,7 @@
 
     <!--Brief explanation of webpage-->
     <center>
-    <?php echo "<p> We all love discounts on our purchases. Buying things on sale allows us to save money and it opens up space for the newest arrivials to come in. However, sometimes it can be hard to mentally figure out how much you will end up paying, with the discounts inpalce. Below you can find a dicount calculator that has been coded in php, which will determine your final price for you! So you can be confident in your purchases, just like this man is below.<p>" ?>
+    <?php echo "<p> We all love discounts on our purchases. Buying things on sale allows us to save money and it opens up space for the newest arrivals to come in. However, sometimes it can be hard to mentally figure out how much you will end up paying, with the discounts in place. Below you can find a discount calculator that has been coded in php, which will determine your final price for you! So you can be confident in your purchases, just like this man is below.<p>" ?>
     </center>
 
     <!--Image-->
@@ -56,7 +56,7 @@
       <br>
       <br>
 
-    <!--Question to go with my extra founctionality-->
+    <!--Question to go with my extra functionality-->
   <h2>Complete the following text field, by indicating your favourite store to shop at!</h2>
 
     <!--MDL Textfield with Floating Label-->
@@ -65,7 +65,7 @@
           <input class="mdl-textfield__input" type="text" id="sample3">
           <label class="mdl-textfield__label" for="sample3">is my favourite store to shop at.</label>
 
-    <!--Question to go with my another extra founctionality-->
+    <!--Question to go with my another extra functionality-->
           <h2>Did you find my discount calculator helpful?</h2>
           
     <!--MDL checkboxes-->
